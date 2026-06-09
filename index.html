@@ -11,7 +11,7 @@
       box-sizing: border-box;
       font-family: Arial, Helvetica, sans-serif;
     }body {
-  background: #1C1C1C;
+  background: ##080c17;
   color: #fff;
 }
 
@@ -66,6 +66,30 @@ nav a:hover {
   cursor: pointer;
 }
 
+.images img {
+  border-radius: 12px;
+  border: 2px solid #000000;
+} 
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.images {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+    
 .btn:hover {
   background: #1C1C1C;
 }
@@ -140,8 +164,18 @@ footer {
     <a href="#">Suporte</a>
   </nav>
 </header><section class="hero">
+  <div class="banner">
+  <div class="images left">
+    <img src="Michael.jpg" alt="jogo 1">
+    <img src="Kratos.jpg" alt="jogo 2">
+  </div>
   <h1>Compre jogos e ganhe recompensas.</h1>
   <p>Uma nova forma de loja digital com sistema de pontos GX para jogadores.</p>
+  <div class="images right">
+    <img src="Nissan.jpg" alt="jogo 3">
+    <img src="Batman.jpg" alt="jogo 4">
+  </div>
+</div>
   <button class="btn">Explorar Loja</button>
 </section><section class="section">
   <h2>Pacotes em Destaque</h2>
